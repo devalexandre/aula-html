@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu primeiro site</title>
+  </head>
+
+  <body>
+    <button id="btn">click aqui</button>
+
+    <script>
+      const btn = document.getElementById('btn');
+
+      btn.addEventListener('click', showAlert('clicado'));
+
+      function showAlert(msg) {
+        alert(msg);
+      }
+    </script>
+  </body>
+</html>
